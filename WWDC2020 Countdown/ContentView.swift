@@ -2,6 +2,7 @@
 //  ContentView.swift
 //  WWDC2020 Countdown
 //
+//  Created by Igor Malyarov on 10.06.2020.
 //  Created by temp on 28.06.2020.
 //
 
