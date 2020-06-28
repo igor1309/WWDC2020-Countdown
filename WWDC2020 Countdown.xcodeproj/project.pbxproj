@@ -13,6 +13,7 @@
 		24E1EF3924A93573004436E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E1EF3824A93573004436E5 /* Preview Assets.xcassets */; };
 		24E1EF4424A93574004436E5 /* WWDC2020_CountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1EF4324A93574004436E5 /* WWDC2020_CountdownTests.swift */; };
 		24E1EF4F24A93574004436E5 /* WWDC2020_CountdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1EF4E24A93574004436E5 /* WWDC2020_CountdownUITests.swift */; };
+		24E1EF5D24A935C2004436E5 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1EF5C24A935C2004436E5 /* Countdown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		24E1EF4A24A93574004436E5 /* WWDC2020 CountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWDC2020 CountdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E1EF4E24A93574004436E5 /* WWDC2020_CountdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC2020_CountdownUITests.swift; sourceTree = "<group>"; };
 		24E1EF5024A93574004436E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E1EF5C24A935C2004436E5 /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				24E1EF3124A93573004436E5 /* WWDC2020_CountdownApp.swift */,
 				24E1EF3324A93573004436E5 /* ContentView.swift */,
+				24E1EF5C24A935C2004436E5 /* Countdown.swift */,
 				24E1EF3524A93573004436E5 /* Assets.xcassets */,
 				24E1EF3A24A93573004436E5 /* Info.plist */,
 				24E1EF3724A93573004436E5 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				24E1EF3424A93573004436E5 /* ContentView.swift in Sources */,
 				24E1EF3224A93573004436E5 /* WWDC2020_CountdownApp.swift in Sources */,
+				24E1EF5D24A935C2004436E5 /* Countdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +431,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.photoigor.PulseZones.WWDC2020-Countdown";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photoigor.WWDC2020Countdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +453,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.photoigor.PulseZones.WWDC2020-Countdown";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photoigor.WWDC2020Countdown;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
